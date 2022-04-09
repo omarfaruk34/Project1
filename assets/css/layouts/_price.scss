@@ -1,0 +1,57 @@
+.price {
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    column-gap: 7%;
+    .single-price {
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 10px;
+        &.active{
+            h2{
+                background-color: tomato;
+                color: #fff;
+            }
+        }
+        h4 {
+            font-size: 26px;
+            font-weight: 600;
+            text-align: center;
+            text-transform: capitalize;
+          }
+          h2 {
+            font-size: 36px;
+            font-weight: 800;
+            background-color: #ddd;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px;
+            &:hover{
+                background-color: teal;
+                color: #fff;
+            }
+            span {
+                font-size: 17px;
+                font-style: italic;
+                font-weight: 700;
+              }
+          }
+          ul {
+            padding: 10px;
+            li {
+                border-bottom: 1px solid #ddd;
+                padding-bottom: 8px;
+                font-size: 14px;
+                &:last-child{
+                    padding-bottom: 0;
+                    border-bottom: 0;
+                }
+              }
+          }
+          a {
+            margin-top: 10px;
+           
+          }
+          
+      }
+  }
+  

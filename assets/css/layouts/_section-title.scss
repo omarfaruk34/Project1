@@ -1,0 +1,36 @@
+
+
+
+.section-title {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    h4 {
+        font-size: 16px;
+        font-weight: 600;
+        color: tomato;
+        text-transform: capitalize;
+      }
+      h2 {
+        text-transform: capitalize;
+        font-size: 40px;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        position: relative;
+        &:before{
+            position: absolute;
+            content: "";
+            background-color: tomato;
+            width: 60px;
+            height: 2px;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+
+        }
+        p{
+            font-size: 18px;
+        }
+      }
+  }
+  

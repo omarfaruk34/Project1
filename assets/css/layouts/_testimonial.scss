@@ -1,0 +1,138 @@
+.testimonial-area{
+    @include bg;
+    color: #fff;
+    .testimonial {
+      .slick-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        &.slick-prev {
+          left: -72px;
+        }
+        &.slick-next {
+          right: -68px;
+        }        
+        
+        i {
+          font-size: 23px;
+          background-color: #333;
+          color: #fff;
+          padding: 6px;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          line-height: 38px;
+        }
+      }
+      .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20px;  
+        li {
+          display: inline-block;
+          margin: 0 10px;
+          width: 17px;
+          height: 26px;
+          &.slick-active{
+            button{
+                background-color: #333;
+                color: #fff;
+              }
+          }
+          button {
+            width: 25px;
+            height: 25px;
+            background-color: #fff;
+            color: #333;
+            border-radius: 50%;
+            font-size: 10px;
+            font-weight: bold;
+          }
+        }
+        
+      
+      }
+        .single-testimonial {
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            i {
+                /*! text-align: center; */
+                font-size: 32px;
+                margin-bottom: 8px;
+              }
+              p {
+                text-align: center;
+                padding: 0 10px;
+                font-size: 14px;
+                font-weight: 400;
+              }
+              .autor-info {
+                display: flex;
+                max-width: 210px;
+                margin: 30px auto 0 auto;
+                align-items: center;
+                img {
+                    max-width: 60px;
+                    border-radius: 50%;
+                  }
+                  h4 {
+                    font-size: 18px;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                    margin-left: 20px;
+                    line-height: 27px;
+                    text-align: left;
+                    span {
+                        display: block;
+                        font-size: 12px;
+                        /*! line-height: 2px; */
+                        font-weight: 400;
+                      }
+                  }
+              }
+          }
+      }
+      .slick-slide {
+        margin: 0 10px;
+      }
+}
+
+
+
+// 
+/* Inline #4 | file:///F:/New%20folder%20(5)/final%20project%201/index.html */
+
+// .slick-dots {
+//   position: absolute;
+//   left: 50%;
+//   transform: translateX(-50%);
+// }
+
+// .slick-dots li {
+//   display: inline-block;
+//   margin: 0 10px;
+//   width: 17px;
+//   height: 26px;
+// }
+
+// .slick-dots li button {
+//   display: inline-block;
+//   width: 25px;
+//   height: 25px;
+//   background-color: #fff;
+//   color: #333;
+//   border-radius: 50%;
+//   font-size: 10px;
+// }
+
+// .slick-dots {
+//   margin-top: 20px;
+// }
+
+// .slick-dots .slick-active {
+//   background-color: ;
+// }
+
+

@@ -1,0 +1,50 @@
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    column-gap: 5%;
+    .single-team {
+        background-position: top;
+        background-size: cover;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+        &:hover .team-content{
+            bottom: 0;
+        }
+        .team-content {
+            position: absolute;
+            content: "";
+            background-color: #333;
+            opacity: .75;
+            left: 0;
+            bottom: -127px;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+            transition: .4s;
+            h4 {
+                font-size: 28px;
+                font-weight: 600;
+                text-transform: capitalize;
+                span {
+                    display: block;
+                    font-size: 16px;
+                    line-height: 20px;
+                  }
+              }
+              a{
+                i {
+                    font-size: 20px;
+                    margin: 20px 10px;
+                    color: #fff;
+                    transition: .3s;
+                    &:hover{
+                        color: blue;
+                        font-size: 26px;
+                    }
+                  }
+              }
+          }
+      }
+  }

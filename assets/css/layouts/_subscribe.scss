@@ -1,0 +1,52 @@
+.subscribe-area{
+    @include bg;
+    color: #fff;
+    
+.subscribe {
+    width: 700px;
+    margin: 0 auto;
+    input {
+        width: 100%;
+        padding: 10px 0;
+        border-radius: 8px;
+        position: relative;
+      }
+      input[type="submit"] {
+        width: auto;
+        position: absolute;
+        right: 324px;
+        padding: 10px 25px;
+        color: #fff;
+        background-color: teal;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    
+  }
+}
+
+
+// .subscribe {
+//     width: 700px;
+//     margin: 0 auto;
+//   }
+//   .subscribe input {
+//     width: 100%;
+//     padding: 10px 0;
+//     border-radius: 8px;
+//     position: relative;
+//   }
+//   .subscribe {
+//   }
+//   .subscribe input[type="submit"] {
+//     width: auto;
+//     position: absolute;
+//     top: ;
+//     right: 324px;
+//     padding: 10px 25px;
+//     color: #fff;
+//     background-color: teal;
+//     font-size: 14px;
+//     font-weight: 600;
+//   }
